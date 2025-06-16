@@ -1,0 +1,95 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #ff416c, #ff802b, #b3ff00, #45fc7c);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+    color: 	rgb(255, 244, 194)
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1, h2{
+    text-align: center;
+    color: royalblue;
+}
+
+main article{
+    text-align: center;
+    background-color: burlywood;
+    background-size: 300px 200px;
+    align-content: center;
+    width: 800px;
+    margin: 20px auto;
+}
+
+main article ul{
+  text-align: left;
+  color: black;
+  background-color: rgb(23, 168, 31);
+  width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  background: linear-gradient(45deg, #986c2a, #77982a, #271b94, #9209ee);
+  background-size: 400% 400%;
+  animation: gradientBG 20s ease infinite;
+  color: #fff;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h3, p{
+    color: black;
+    background-color: rgb(23, 168, 31);
+    width: 700px;
+    margin: 0 auto;
+}
+
+.kozepre{
+  text-align: center;
+}
+
+.kozepre2{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.kozepre3{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.kozepre4{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.kozepre5{
+  text-align: center;
+  margin: 0 auto;
+  height: 1000px;
+  width: 700px;
+}
+
+
+footer{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}

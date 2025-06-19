@@ -6,7 +6,8 @@ header{
     background: linear-gradient(135deg, #ff416c, #ff802b, #b3ff00, #45fc7c);
     background-size: 400% 400%;
     animation: gradientMove 10s ease infinite;
-    color: 	rgb(255, 244, 194)
+    color: 	rgb(255, 244, 194);
+    border-radius: 20px;
 }
 
 @keyframes gradientMove {
@@ -27,14 +28,16 @@ main article{
     align-content: center;
     width: 800px;
     margin: 20px auto;
+    border-radius: 20px;
 }
 
 main article ul{
-  text-align: left;
   color: black;
-  background-color: rgb(23, 168, 31);
-  width: 700px;
+  background-color: rgb(214, 227, 92);
+  align-content: left;
+  width: 675px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 body {
@@ -51,10 +54,12 @@ body {
 }
 
 h3, p{
+    padding: 5px;
     color: black;
     background-color: rgb(214, 227, 92);
     width: 700px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .kozepre{
